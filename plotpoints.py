@@ -22,7 +22,7 @@ for i in range(0, len(training_set["coordinates"])):
 
 fig, ax = plt.subplots()
 ax.scatter(x1_0, x2_0, c = "blue", label = "y = 0")
-ax.scatter(x1_1, x2_0, c = "red", label = "y = 1")
+ax.scatter(x1_1, x2_1, c = "red", label = "y = 1")
 ax.legend()
 
 minx1, maxx1 = x1_0[0], x1_0[1]
